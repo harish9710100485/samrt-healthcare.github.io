@@ -7,7 +7,7 @@
 * Secure login page for authorized access to patient data and monitoring dashboard
 * Patient data analytics and visualization for trend analysis and forecasting
 * Remote patient monitoring capabilities for home healthcare services
-* Utilizes Raspberry Pi, an affordable and compact IoT device, for easy and efficient data collection and transmission.
+* Utilizes Node MCU, an affordable and compact IoT device, for easy and efficient data collection and transmission.
 
 ## Technologies Used
 
@@ -16,8 +16,8 @@
 * ExpressJS
 * MongoDB
 * WebSockets
-* Raspberry Pi
-* Python (used in raspberry pi to collect and transmit sensor data)
+* Node Mcu
+* Python (used in Node MCU to collect and transmit sensor data)
 
 ## Screenshots
 
