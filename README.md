@@ -1,4 +1,10 @@
- # Smart Health Monitoring SystemHealth monitoring is the major problem in today's world. Due to lack of proper health monitoring, patient suffer from serious health issues. There are lots of lot devices new days to monitue the health of patientover internet. Health experts are also taking advantage of these smart devices to keep an eye on their patients. With tons of new healthcare technology start-ups, tot is rapidly revolutionizing the healthcare industry Here in this project, we will make an IoT based Health Monitoring System which records the patient heart best rate and bodytemperature and also send an email alert whenever those readings goesbeyond critical values. Hence the lack of assistance for elderly people in home has been reduced now a days due to the social change. Also theregular health checkup has became difficult due to covid19 situations. This project is focused upon giving an health care assistance from homefor the people who are not able to give a regular visit to doctors and forthose people who were bed ridden. Node MCU is a microcontroller unitthat will get the dat from all the input sensor and will transfer all the data in the cloud platform. Pulse rate and body temperature readings arerecorded over Ubidots so that patient health can be monitored from anywhere in the world over internet. A panic will also be attached so that parient can press it on emergency to send email/sms to their relatives.
+# Smart Health Monitoring System
+
+Health monitoring is a major concern in today's world. Due to a lack of proper health monitoring, patients suffer from serious health issues. There are many devices available nowadays to monitor patients' health over the internet. Health experts are also taking advantage of these smart devices to keep an eye on their patients. With the rise of healthcare technology start-ups, IoT is rapidly revolutionizing the healthcare industry.
+
+In this project, we will create an IoT-based Health Monitoring System that records a patient's heart rate and body temperature. The system also sends an email alert whenever these readings exceed critical values. The lack of assistance for elderly people at home has been reduced due to social changes, and regular health check-ups have become difficult due to COVID-19 situations. This project aims to provide healthcare assistance from home for people who cannot visit doctors regularly and for bedridden individuals.
+
+NodeMCU, a microcontroller unit, will collect data from sensors and transmit it to a cloud platform. Pulse rate and body temperature readings are recorded over Ubidots, allowing patient health monitoring from anywhere in the world via the internet. A panic button will also be attached so that patients can press it in an emergency to send an email/SMS to their relatives.
 
 ## Features
 
@@ -7,7 +13,7 @@
 * Secure login page for authorized access to patient data and monitoring dashboard
 * Patient data analytics and visualization for trend analysis and forecasting
 * Remote patient monitoring capabilities for home healthcare services
-* Utilizes Node MCU, an affordable and compact IoT device, for easy and efficient data collection and transmission.
+* Utilizes NodeMCU, an affordable and compact IoT device, for easy and efficient data collection and transmission
 
 ## Technologies Used
 
@@ -16,8 +22,8 @@
 * ExpressJS
 * MongoDB
 * WebSockets
-* Node Mcu
-* Python (used in Node MCU to collect and transmit sensor data)
+* NodeMCU
+* Python (used in NodeMCU to collect and transmit sensor data)
 
 ## Screenshots
 
@@ -35,28 +41,27 @@
 
 ## Installation & Testing
 
-1. Clone the repository
-```
+1. Clone the repository:
+```sh
 git clone https://github.com/username/smart-health-monitoring-system.git
 ```
 
-2. Navigate to the project directory
-```
+2. Navigate to the project directory:
+```sh
 cd smart-health-monitoring-system
 ```
 
-3. Navigate to dashboard directory, install the dependencies & start the frontend
-```
+3. Navigate to the dashboard directory, install dependencies, and start the frontend:
+```sh
 cd dashboard && npm install && npm start
 ```
 
-4. Navigate to server directory, install the dependencies & start the backend
-```
+4. Navigate to the server directory, install dependencies, and start the backend:
+```sh
 cd ../server && npm install && npm start
 ```
 
-5. For testing purposes you can run the `mockSensor.js` script to feed data into the system
-```
+5. For testing purposes, run the `mockSensor.js` script to feed data into the system:
+```sh
 cd ../iot-device && node mockSensor.js
 ```
-
